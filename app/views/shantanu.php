@@ -1,0 +1,46 @@
+<html><head>
+
+<link href="css/demo.css" media="all" rel="stylesheet">
+<link href="css/visualcaptcha.css" media="all" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+<div class="pre-captcha-wrapper">
+<a href="/" target="_blank" class="logo"><img src="img/logo.png" alt="visualCaptcha"></a>
+<div class="captcha-wrapper">
+<form class="frm-sample" method="post" action="try">
+
+<h1>Fill in the form</h1>
+<br>
+<input type="text" class="form-control" name="firstname" placeholder="Firstname">
+<br>
+<br>
+<input type="text" class="form-control" name="lastname" placeholder="Lastname">
+<br><br>
+<div id="status-message"></div>
+<div id="sample-captcha"></div>
+<a id="check-is-filled" class='info-btn'>Check for VisualCaptcha</a>
+<input type="submit" class="submit" value="Submit">
+</form>
+</div>
+</div>
+<div class="links">
+<p class="txt-center">
+<a href="/" target="_blank"><b>VisualCaptcha POC</b></a> by <a href="http://emotionloop.com/" target="_blank"><b>Shantanu</b></a></p>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/visualcaptcha.jquery.js"></script>
+<script src="js/main.js"></script>
+<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-43214420-4', 'visualcaptcha.net');
+		ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
